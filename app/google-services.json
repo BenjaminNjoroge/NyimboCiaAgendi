@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1014809881298",
+    "firebase_url": "https://nyimbociaagendi.firebaseio.com",
+    "project_id": "nyimbociaagendi",
+    "storage_bucket": "nyimbociaagendi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014809881298:android:214265081f2dbc93",
+        "android_client_info": {
+          "package_name": "net.webnetworksolutions.nyimbociaagendi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014809881298-act262k7hho83llkc0tcuc3bov68spv5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.webnetworksolutions.nyimbociaagendi",
+            "certificate_hash": "6cc2380d511e213888311e7c8277c796f68ad7db"
+          }
+        },
+        {
+          "client_id": "1014809881298-9fj5o7oqm6nogn3i7pblka2bmvh8b540.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzas065F5F56d_xPeV31Ps-zARkdy2ts4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014809881298-9fj5o7oqm6nogn3i7pblka2bmvh8b540.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
