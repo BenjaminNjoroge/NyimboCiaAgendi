@@ -5,14 +5,14 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.design.widget.AppBarLayout;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.SearchView;
-import android.support.v7.widget.Toolbar;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.appbar.CollapsingToolbarLayout;
+import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AlertDialog;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -24,7 +24,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -177,9 +176,8 @@ public class OldSongsFragment extends Fragment {
         });
 
         // loading toolbar header image
-        Glide.with(getActivity().getApplicationContext()).load("http://254connect.co.ke/images/nyimbo_cia_agendi.jpg")
+        Glide.with(getActivity().getApplicationContext()).load("https://www.facebook.com/photo?fbid=106403524376846&set=a.106403554376843")
                 .thumbnail(0.5f)
-                .crossFade()
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .into(imgHeader);
     }

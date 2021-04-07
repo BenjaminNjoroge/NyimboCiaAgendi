@@ -1,13 +1,10 @@
 package net.webnetworksolutions.nyimbociaagendi.activity;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.MotionEvent;
-import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-import android.widget.ZoomControls;
 
 import net.webnetworksolutions.nyimbociaagendi.R;
 

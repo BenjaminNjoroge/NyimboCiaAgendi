@@ -1,14 +1,13 @@
 package net.webnetworksolutions.nyimbociaagendi.viewHolder;
 
 import android.content.Context;
-import android.content.Intent;
-import android.support.v7.widget.RecyclerView;
+
+import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import net.webnetworksolutions.nyimbociaagendi.R;
-import net.webnetworksolutions.nyimbociaagendi.activity.DisplayActivity;
 import net.webnetworksolutions.nyimbociaagendi.other.ItemClickListener;
 import net.webnetworksolutions.nyimbociaagendi.pojo.Song;
 
